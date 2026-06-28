@@ -196,7 +196,7 @@ user-management-dashboard/
 ## 🔹 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/user-management-dashboard.git
+git clone https://github.com/Rachana-Hegde/user-management-dashboard.git
 
 cd user-management-dashboard
 ```
