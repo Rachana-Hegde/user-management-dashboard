@@ -1,0 +1,20 @@
+.empty-state{
+    padding:60px;
+    text-align:center;
+    background:white;
+    border-radius:12px;
+    margin-top:30px;
+}
+
+.empty-state svg{
+    color:#2563eb;
+}
+
+.empty-state h2{
+    margin-top:15px;
+}
+
+.empty-state p{
+    margin-top:10px;
+    color:#6b7280;
+}

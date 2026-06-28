@@ -1,0 +1,46 @@
+.user-form{
+    width:500px;
+    background:#fff;
+    border-radius:12px;
+    padding:25px;
+}
+
+.user-form input{
+    width:100%;
+    padding:12px;
+    margin-bottom:6px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+}
+
+.user-form span{
+    color:red;
+    font-size:13px;
+    margin-bottom:12px;
+    display:block;
+}
+
+.save-btn{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.cancel-btn{
+    background:#e5e7eb;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.user-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 6px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    background: white;
+}

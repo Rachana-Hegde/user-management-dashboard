@@ -1,0 +1,148 @@
+.table-container{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#2563eb;
+    color:#fff;
+}
+
+thead th{
+    padding:18px;
+    font-size:16px;
+    text-align:left;
+    font-weight:600;
+}
+
+tbody tr{
+    transition:.25s;
+}
+
+tbody tr:nth-child(even){
+    background:#f8fafc;
+}
+
+tbody tr:hover{
+    background:#eaf2ff;
+}
+
+tbody td{
+    padding:18px;
+    border-bottom:1px solid #edf2f7;
+    font-size:15px;
+}
+
+thead th {
+    cursor: pointer;
+    user-select: none;
+    transition: .3s;
+}
+
+thead th:hover {
+    background: #1d4ed8;
+}
+
+.actions{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+}
+
+.edit-btn,
+.delete-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.edit-btn{
+    background:#2563eb;
+}
+
+.edit-btn:hover{
+    background:#1d4ed8;
+}
+
+.delete-btn{
+    background:#ef4444;
+}
+
+.delete-btn:hover{
+    background:#dc2626;
+}
+
+.edit-btn svg,
+.delete-btn svg {
+    font-size: 16px;
+    display: block;
+}
+
+.department{
+    display:inline-block;
+    padding:8px 14px;
+    border-radius:30px;
+    background:#dbeafe;
+    color:#2563eb;
+    font-size:13px;
+    font-weight:600;
+}
+
+.header-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sort-icon {
+    font-size: 12px;
+    color: rgba(255,255,255,0.7);
+}
+
+.sort-icon.active {
+    color: #ffffff;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+
+@media (max-width: 768px) {
+
+    .toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .toolbar-buttons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+}

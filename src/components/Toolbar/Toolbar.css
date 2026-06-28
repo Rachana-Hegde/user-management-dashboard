@@ -1,0 +1,45 @@
+.toolbar{
+    width:100%;
+    background:white;
+    padding:20px;
+    margin:30px 0;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
+
+.toolbar-buttons{
+    display:flex;
+    gap:15px;
+}
+
+.filter-btn,
+.add-btn{
+    padding:13px 22px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.filter-btn{
+    background:white;
+    border:1px solid #d1d5db;
+}
+
+.filter-btn:hover{
+    background:#f3f4f6;
+}
+
+.add-btn{
+    background:#2563eb;
+    color:white;
+}
+
+.add-btn:hover{
+    background:#1d4ed8;
+}

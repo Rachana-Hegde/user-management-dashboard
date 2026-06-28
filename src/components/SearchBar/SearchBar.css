@@ -1,0 +1,25 @@
+.search-box{
+    position:relative;
+    width:420px;
+}
+
+.search-box input{
+    width:100%;
+    padding:14px 20px 14px 50px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:16px;
+    transition:.3s;
+}
+
+.search-box input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 8px rgba(37,99,235,.2);
+}
+
+.search-icon{
+    position:absolute;
+    left:18px;
+    top:17px;
+    color:#9ca3af;
+}
