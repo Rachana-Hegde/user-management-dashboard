@@ -322,6 +322,4 @@ This project demonstrates:
 
 **Live Application:**
 
-
-
-> Replace the above URL with your deployed Vercel or Netlify application.
+https://user-management-dashboard-cyan-nu.vercel.app
