@@ -320,6 +320,4 @@ This project demonstrates:
 
 # 🌐 Live Demo
 
-**Live Application:**
-
 https://user-management-dashboard-cyan-nu.vercel.app
